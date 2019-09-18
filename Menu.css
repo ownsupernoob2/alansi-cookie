@@ -1,0 +1,116 @@
+body {
+
+
+background-size:cover;
+font-family: Papyrus;
+
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+     list-style: none;
+    
+ }
+ ul li {
+
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size:20px;
+margin-top: 1px;
+margin-left: 1px;
+ border-radius: 15px;
+ 
+ 
+ box-shadow: 5px 5px rgba(45, 45, 45, 0.13);
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ ul li a {
+     text-decoration: none;
+     color: white;
+     display: block;
+     
+     border-radius: 15px;
+     
+ }
+ ul li a:hover {
+     transition: 1.0s;
+     background-color: burlywood;
+     color: black;
+ }
+ 
+ ul li ul li {
+   
+     display: none;
+     
+ }
+ ul li:hover ul li {
+     display: block;
+    
+ }
+ 
+ .marging {
+    
+ margin-left: 6.4cm;
+ 
+   margin-top: 18px;
+   margin-bottom: 30px;
+
+ 
+ }
+
+ .logo {
+    float:left;
+    width: 3.9cm;
+    padding-bottom: 4px;
+    
+
+
+    
+  
+    
+ }
+
+ .text {
+     text-align: center;
+     color: rgb(202, 179, 179);
+     background-color: rgb(179, 113, 113);
+     width: 70%;
+     height: 15%;
+     margin-left: 9em;
+   
+   border-radius: 15px;
+   padding: 10px;
+   
+   box-shadow: 5px 5px rgba(45, 45, 45, 0.13);
+ }
+
+
+ .menu{
+    position: fixed;
+    background-color:white;
+    padding-right:2.7cm;
+    padding-bottom: 2px;
+
+    
+   box-shadow: 5px 5px rgba(45, 45, 45, 0.16);
+
+ }
+
+
+     
+ 
+   
